@@ -1,0 +1,4 @@
+Using GHC shell: https://downloads.haskell.org/~ghc/5.04/docs/html/users_guide/ghci.html
+
+learning Haskell: http://stackoverflow.com/questions/1012573/getting-started-with-haskell/1016986#1016986
+using QuickCheck: http://stackoverflow.com/a/5684078/5847190

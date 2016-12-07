@@ -1,0 +1,3 @@
+What starting number under 10^6 produces the longest Collatz chain?
+n -> n/2    (n is even)
+n -> 3n + 1 (n is odd)

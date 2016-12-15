@@ -38,3 +38,12 @@ sumDigits :: Integer -> Integer
 sumDigits n
     | n < 10    = n
     | otherwise = n `mod` 10 + sumDigits (n `div` 10)
+    
+intSqrt :: Integer -> Integer
+intSqrt n = floor . sqrt $ (fromIntegral n :: Float)
+
+isSquare :: Integer -> Bool
+isSquare n = n == intSqrt n * intSqrt n
+
+isPrime :: Integer -> Bool
+isPrime n = n `elem` primesToM n
